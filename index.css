@@ -1,0 +1,255 @@
+/* inicial */
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+header {
+    background: #018607;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 2.2rem
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+nav {
+    margin-top: 80px; 
+    width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul {
+    list-style: none;
+    padding: 11;
+    width: 100%;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px 30px;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+.nav ul li a a:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+section {
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#sobre {
+    text-align: center;
+    margin-top: 100px; 
+}       
+img{
+    width: 300px;
+    height: 350px;
+    margin-right: -1200px;
+    margin-top: -180px;
+    border-radius: 50%;       
+    border: 5px solid#018607;  
+    object-fit: cover;  
+}
+/*Contato */
+#contato {
+    margin-top: 50px;
+    padding: 20px;
+    width: 80%;
+    text-align: left;
+}
+#linha{
+    width: 100%;
+    border-bottom: 1px solid #000000;
+
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contato-item a {
+    color: #018607;
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    text-decoration: underline;
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #018607;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+#contato {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contato-item h2 {
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    color: #018607;
+}
+
+.contato-item p a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.contato-item p a:hover {
+    color: #018607;
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    .contato-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contato-item {
+        text-align: center;
+    }
+}
+/* Conhecimentos */
+
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categoria {
+    margin-bottom: 30px;
+  }
+  
+  .categoria h2 {
+    color: #018607;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+  }
+  
+  .categoria ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .categoria ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  /* Seção de projeto */
+  .projeto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 30px;
+    border-left: 5px solid #018607;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .projeto:hover {
+    transform: scale(1.01);
+  }
+  
+  .projeto h2 {
+    color: #018607;
+    margin-bottom: 10px;
+  }
+  
+  .projeto p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .projeto a {
+    color: #018607;
+    font-weight: bold;
+  }
